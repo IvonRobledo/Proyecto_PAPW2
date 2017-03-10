@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Proyeto PAPW 2">
+    <meta name="author" content="Ivón Olivares / Vanessa Oviedo">
+
+    <link rel="icon" href="img/logo.png">
+    <title>Between Books</title>
+
+    <!-- Bootstrap CSS -->
+
+    <!-- Theme CSS -->
+    <link href="css/registro-login.css" rel="stylesheet">
+</head>
+  <body class="fondo-registro">
+	<div>
+	<br><br><br><br><br>
+	<div id= "divRegistro" style="min-width: 250px; min-height: 50px;">
+	<form action="LandingPage.html">
+			
+		<br>	
+        <center>
+        <img src="img/logo1.png" style="min-width: 150px; min-height: 10px; "
+            width=75% height=150% alt="Imagen no disponible">
+        
+		<h2 class="textosR">¡Crea una cuenta!</h2>
+		<input class="registro" type="text" placeholder="Usuario" name="usuario" required/>
+		<input class="registro" type="email" placeholder="Correo electrónico" name="correo" required/>
+		<input class="registro" type="password" placeholder="Contraseña" name="contrasena" required/>
+		<br><br>
+        </center>
+		<label class="labelreg" style="margin-left: 3%;"> Fecha de nacimiento </label> 
+        <center>
+		<input class="registro" type="date" name="fechaNac" required/>
+        </center>
+		<p style="margin-left: 3%;"><label class="labelreg"> Genero </label></p>
+		<input id="radio1" class="radios" type="radio" name="genero" value="hombre" checked> 
+		<label for="radio1" class="labelreg"> Hombre </label>
+		<input id="radio2" class="radios" type="radio" name="genero" value="mujer">
+		<label for="radio2" class="labelreg"> Mujer </label>
+		
+		<br><br>
+		<center>
+		
+		<button class="btn-registro" type="submit">Registrarme</button>
+        <br><br>
+        <label class="labelreg"> ¿Ya tienes una cuenta? Haz clic <a class="link-rl" href="01_Login.html">aquí</a>.</label>
+         </center>
+	
+	</form>
+	</div>
+	<br><br><br><br><br>
+	</div>
+  </body>
+ </html>
