@@ -1,0 +1,166 @@
+/*!
+ * @copyright Copyright &copy; Kartik Visweswaran, Krajee.com, 2013
+ * @package yii2-widgets
+ * @version 1.0.0
+ *
+ * File input styling for Bootstrap 3.0
+ * Built for Yii Framework 2.0
+ * Author: Kartik Visweswaran
+ * Year: 2013
+ * For more Yii related demos visit http://demos.krajee.com
+ */
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 999px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    background: red;
+    cursor: inherit;
+    display: block;
+}
+
+.file-caption-disabled {
+    background-color: #EEEEEE;
+    cursor: not-allowed;
+    opacity: 1;
+}
+
+.file-input .btn[disabled], .file-input .btn .disabled {
+    cursor: not-allowed;
+}
+
+/*.file-preview {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.file-preview-frame {
+    display: table;
+    margin: 8px;
+	 width: 220px;
+    height: 335px;
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 5px 0px #a2958a;
+    padding: 0px;
+    float: left;
+    text-align: center;
+}
+
+.file-preview-frame:hover {
+    background-color: #eee;
+    box-shadow: 2px 2px 5px 0px #333;
+}*/
+
+.file-preview-image {
+	/*imagen*/
+    width: 220px;
+	max-width: 220px;
+	max-height: 220px;
+	height: 220px;
+    vertical-align: text-center;
+	margin-top: -20px;
+	margin-left: -15px;
+	box-shadow: 1px 1px 5px 0px #a2958a;
+	border-radius: 100px;
+	
+}
+
+
+.file-preview-text {
+    display: table-cell;
+    width: 150px;
+    height: 150px;
+    color: #428bca;
+    font-size: 11px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.file-preview-other {
+    display: table-cell;
+    width: 150px;
+    height: 150px;
+    font-family: Monaco, Consolas, monospace;
+    font-size: 11px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.file-input-new .file-preview, .file-input-new .close, .file-input-new .glyphicon-file, .file-input-new .fileinput-remove-button, .file-input-new .fileinput-upload-button {
+    display: none;
+}
+
+.loading {
+    background: transparent url('../img/loading.gif') no-repeat scroll center center content-box !important;
+}
+
+.wrap-indicator {
+    font-weight: bold;
+    color: #245269;
+    cursor: pointer;
+}
+
+.btn-primary:hover
+{
+	background-color: #86592d !important;
+	margin-top: 5px;
+}
+
+.btn-primary 
+{
+	cursor: pointer;
+	
+	width: 90%;
+    height: 42px;
+	padding: 5px 5px;
+	position: relative;
+	margin: 2% auto 0 0;
+	
+	
+	
+   background-color: #c68c53 !important;
+    
+    border-radius: 5px !important; 
+    
+    padding-top: 10px !important;
+
+    
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,.1);
+    -o-transition: all .2s;
+    -moz-transition: all .2s;
+    -webkit-transition: all .2s;
+    -ms-transition: all .2s;
+}
+
+
+.btn-default2
+{
+    background-color: #b3b3b3;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px !important;
+}
+
+.btn-default2:hover
+{
+    background-color: #737373;
+    color: #f2f2f2;
+    margin-top: 10px;
+}
