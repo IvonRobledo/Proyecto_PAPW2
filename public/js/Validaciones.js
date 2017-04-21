@@ -2,7 +2,7 @@ $("#ingresar").click(function(event){
 		var error = 0;
 		$('.aux').each(function(i, elem){
 			if($(elem).val().trim() == ''){
-				$(elem).css("border", "1px solid red");  
+				$(elem).css("border", "2px solid rgba(255,0,0,0.5)");  
 				error++;
 				}
 			else{
@@ -26,7 +26,7 @@ $("#Registrarme").click(function(event){
 		
 		$('.aux').each(function(i, elem){
 			if($(elem).val().trim() == ''){
-				$(elem).css("border", "1px solid red");  
+				$(elem).css("border", "2px solid rgba(255,0,0,0.5)");  
 				error++;
 				}
 			else{
@@ -37,7 +37,7 @@ $("#Registrarme").click(function(event){
 			
 		if (eMail.length === 0)
 		{
-			$('#correo').css("border", "1px solid red");  
+			$('#correo').css("border", "2px solid rgba(255,0,0,0.5)");  
 			error++;
 		}   
 		else
@@ -65,7 +65,7 @@ $("#PublicarReseña").click(function(event){
 		var error = 0;
 		$('.datos').not('#paginas').not('#anio').each(function(i, elem){
 			if($(elem).val().trim() == ''){
-				$(elem).css("border", "1px solid red");  
+				$(elem).css("border", "2px solid rgba(255,0,0,0.5)");  
 				error++;
 				}
 			else{
@@ -86,7 +86,7 @@ $("#ModificarDatos").click(function(event){
 		
 		$('.datos').not('#biografia').each(function(i, elem){
 			if($(elem).val().trim() == ''){
-				$(elem).css("border", "1px solid red");  
+				$(elem).css("border", "2px solid rgba(255,0,0,0.5)");  
 				error++;
 				}
 			else{
@@ -97,7 +97,7 @@ $("#ModificarDatos").click(function(event){
 			
 		if (eMail.length === 0)
 		{
-			$('#correo').css("border", "1px solid red");  
+			$('#correo').css("border", "2px solid rgba(255,0,0,0.5)");  
 			error++;
 		}   
 		else
@@ -129,7 +129,7 @@ $(".btn-busqueda").click(function(event){
 				}
 
 			if(error > 0){
-				$('#search').css("border", "1px solid red");  
+				$('#search').css("border", "2px solid rgba(255,0,0,0.5)");  
 				event.preventDefault();
 			}
 });
