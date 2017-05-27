@@ -247,48 +247,48 @@ label.labeldatosC{
 
 
 .btn {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif !important;
-  border: none !important;
-  border-radius: 5px !important;
-  font-weight: 700 !important;
-  text-transform: uppercase !important;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .btn-xl {
-  padding: 15px 30px !important;
+  padding: 15px 30px;
 }
 
 .btn-cancel
 {
-  background-color: #aaaaaa !important;
-  color: white !important;
-  padding-top: 15px !important;
-  padding-bottom: 15px !important;
-  padding-right: 25px !important;
-  padding-left: 25px !important;
-  border-radius: 10px !important;
-  margin-top: 20px !important;
+  background-color: #aaaaaa;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 25px;
+  padding-left: 25px;
+  border-radius: 10px;
+  margin-top: 20px;
 }
 .btn-cancel:hover{
-  background-color: #8f8f8f !important;
-  color: white !important;
-  cursor: pointer !important;
+  background-color: #8f8f8f;
+  color: white;
+  cursor: pointer;
 }
 
 .btn-publicar
 {
-  background-color: #c68c53 !important;
-  color: white !important;
-  padding-top: 15px !important;
-  padding-bottom: 15px !important;
-  padding-right: 25px !important;
-  padding-left: 25px !important;
-  border-radius: 10px !important;
-  margin-top: 20px !important;
+  background-color: #c68c53;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 25px;
+  padding-left: 25px;
+  border-radius: 10px;
+  margin-top: 20px;
 }
 .btn-publicar:hover{
-  background-color: #b27e4a !important;
-  color: white !important;
-  cursor: pointer !important;
+  background-color: #b27e4a;
+  color: white;
+  cursor: pointer;
 }
 
 .fecha-datos{
@@ -306,26 +306,26 @@ label.labeldatosC{
 }
   .btn-publicar
   {
-    background-color: #c68c53 !important;
-    color: white !important;
-    padding-top: 15px !important;
-    padding-bottom: 15px !important;
-    padding-right: 20px !important;
-    padding-left: 20px !important;
-    border-radius: 10px !important;
-    margin-left: -10px !important;
+    background-color: #c68c53;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    margin-left: -10px;
   }
 
   .btn-cancel
 {
-  background-color: #aaaaaa !important;
-  color: white !important;
-  padding-top: 15px !important;
-  padding-bottom: 15px !important;
-  padding-right: 20px !important;
-  padding-left: 20px !important;
-  border-radius: 10px !important;
-  margin-left: -20px !important;
+  background-color: #aaaaaa;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  margin-left: -20px;
 }
 label.labeldatosC{ 
   float: left;
