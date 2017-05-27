@@ -97,14 +97,14 @@ $("#ModificarDatos").click(function(event){
 			
 		if (eMail.length === 0)
 		{
-			$('#correo').css("border", "2px solid rgba(255,0,0,0.5)");  
+			$('#correo').css("border", "1px solid red");  
 			error++;
 		}   
 		else
 		{
 			if ( !expr.test(eMail) )
 			{
-                $('#correo').css("border", "1px solid red");  
+                $('#correo').css("border", "2px solid rgba(255,0,0,0.5)");  
 				error++;
 				$('#correoInvalido').show(); 
 			}

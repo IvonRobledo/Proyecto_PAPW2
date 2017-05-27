@@ -308,11 +308,11 @@ header .header-content .header-content-inner p {
 
 
 .foto-perfil{
-  width: auto;
-  height: 200px;
-  margin-left: 20%;
-  margin-top: 60px;
-  margin-right: 0%;
+  width: 200px !important;
+  height: 200px !important;
+  margin-left: 20% !important;
+  margin-top: 60px !important;
+  margin-right: 0% !important;
 }
 
 .seccion_perfil{
@@ -345,11 +345,11 @@ header .header-content .header-content-inner p {
 @media(max-width: 300px)
 {
   .foto-perfil{
-  width: auto;
-  height: 200px;
-  margin-left: 12%;
-  margin-right: 20%;
-  margin-top: 60px;
+  width: 200px  !important;
+  height: 200px !important;
+  margin-left: 12% !important;
+  margin-right: 20% !important;
+  margin-top: 60px !important;
 }
 .nombreUsuario{
   position: relative;
@@ -378,11 +378,11 @@ header .header-content .header-content-inner p {
 }
 
 .foto-perfil{
-  width: auto;
-  height: 200px;
-  margin-left: 30%;
-  margin-right: 30%;
-  margin-top: 60px;
+  width: 200px  !important;
+  height: 200px !important;
+  margin-left: 30% !important;
+  margin-right: 30% !important;
+  margin-top: 60px !important;
 }
 .seccion_perfil{
   margin-top: 10px;
@@ -404,11 +404,11 @@ header .header-content .header-content-inner p {
 {
 
 .foto-perfil{
-  width: auto;
-  height: 200px;
-  margin-left: 12%;
-  margin-top: 200px;
-  margin-top: 60px;
+  width: 200px  !important;
+  height: 200px !important;
+  margin-left: 12% !important;
+  margin-top: 200px !important;
+  margin-top: 60px !important;
 }
   .nombreUsuario{
     color: white;
@@ -443,10 +443,10 @@ header .header-content .header-content-inner p {
 
 @media (min-width: 780px) {
   .foto-perfil{
-  width: auto;
-  height: 200px;
-  margin-left: 12%;
-  margin-top: 60px;
+  width: 200px  !important;
+  height: 200px !important;
+  margin-left: 12% !important;
+  margin-top: 60px !important;
   }
 
   .nombreUsuario{
