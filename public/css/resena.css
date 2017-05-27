@@ -1,0 +1,537 @@
+/*!
+ * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+hr {
+  border-width: 2px;
+  width: 90%;
+}
+a:hover,
+a:focus {
+  color: #c68c53;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+p {
+  font-size: 18px;
+}
+
+body{
+  background-color: #DFDFDF;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+.navbar-default .nav > li > a,
+.navbar-default .nav > li > a:focus {
+  font-weight: 700;
+  font-size: 13px;
+  color: #222222;
+}
+.navbar-default {
+    background-color: #c68c53;
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+@media (min-width: 768px) {
+  .navbar-default {
+    background-color: #c68c53;
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+  .navbar-default .nav > li > a,
+  .navbar-default .nav > li > a:focus {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .navbar-default .nav > li > a:hover,
+  .navbar-default .nav > li > a:focus:hover {
+    color: white;
+  }
+  .navbar-default.affix {
+    background-color: #c68c53;
+    border-color: rgba(34, 34, 34, 0.05);
+    font-size: 18px;
+  }
+  .navbar-default.affix .nav > li > a,
+  .navbar-default.affix .nav > li > a:focus {
+    color: #222222;
+  }
+  .navbar-default.affix .nav > li > a:hover,
+  .navbar-default.affix .nav > li > a:focus:hover {
+    color: #c27b3d;
+  }
+}
+
+.special-img 
+{
+    position: relative;
+    top: -10px;
+    float: left;
+    left: -10px;
+    margin-left: 15px;
+    width: 38px; /* you can use % */
+    height: 38px;
+}
+
+.img-circle{
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.img-circle img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
+}
+
+.opciones{
+  color: black;
+}
+
+.busqueda{
+  width: 80%;
+  margin-left: 5px;
+  display: inline;
+  margin-top: 8px;
+}
+
+.btn-busqueda{
+  display: inline;
+}
+
+.seccion{
+  background-color: white;
+  position: absolute;
+  width: 95%;
+  margin-top: 80px;
+  margin-left: 2.5%;
+  border-radius: 10px;
+}
+
+.section-heading{
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #c68c53;
+}
+
+.imagen-libroR{
+  position: relative;
+  width: 220px;
+  height: 330px;
+  border-radius: 6px;
+}
+
+.ficha
+{
+	background-color: #f3e5d8;
+	border-radius: 6px;
+	min-height: 330px;
+}
+
+
+
+label.labeldatosF{ 	
+	width: 200px;
+	padding-left: 30px;
+	margin-top: 10px;
+	font: normal 17px 'trebuchet MS', arial, helvetica;
+	color: gray;
+}
+
+ .datosLibro {	
+	width: 500px;
+	margin-left: 30px;
+	font: normal 17px 'trebuchet MS', arial, helvetica;
+	color: #1a1a1a;
+ }
+
+
+.reseñaCont
+{
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align : justify;
+	padding-bottom: 20px;
+	line-height: 1.5em;
+	color: black;
+}
+
+.likeIcono
+{
+	color: #c68c53;
+	font-size: 1.5em;
+	padding-right: 10px;
+	cursor: pointer;
+}
+.auxLike
+{
+	padding-left: 20px;
+	font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.likeIcono:hover
+{
+	color: #996633;
+	text-decoration:none;
+}
+
+.comentar
+{
+	color: #c68c53;
+	font-size: 1.5em;
+	padding-right: 10px;
+	cursor: pointer;
+}
+.auxComentar
+{
+	padding-left: -10px;
+	color: #c68c53;
+	font-size: 1.5em;
+	padding-right: 10px;
+	cursor: pointer;
+	font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.auxComentar:hover
+{
+	color: #996633;
+	text-decoration:none;
+}
+
+.separador
+{
+	background-color: rgba(198, 140, 83, 0.3);
+	height: 5px;
+	margin-top: 10px;
+}
+.separador2
+{
+  background-color: rgba(198, 140, 83, 0.3);
+  height: 2px;
+  margin-top: 10px;
+}
+
+
+
+
+/* Ocultar botón radio */
+input[id^="spoiler"]{
+display: none;
+}
+/* Estilo botón clicable */
+input[id="spoiler"] + label {
+/*display: block;
+width: 200px;
+margin: 0 auto;
+padding: 5px 20px;*/
+background: #f2f2f2;
+cursor: pointer;
+}
+/* Estilo botón cuando su INPUT está seleccionado */
+input[id="spoiler"]:checked + label {
+color: green;
+background: #f2f2f2;
+}
+/* Estilo caja SPOILER (inicialmente oculto) */
+input[id="spoiler"] ~ .spoiler {
+/*width: 90%;*/
+height: 0;
+/*overflow: hidden;*/
+opacity: 0;
+/*margin: 10px auto 0; */
+}
+/* Estilo caja SPOILER cuando su INPUT está seleccionado */
+input[id="spoiler"]:checked + label + .spoiler{
+height: auto;
+opacity: 1;
+}
+
+
+
+.oculto1{
+	display:none;
+}
+
+.black_overlay{
+	display: none;
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	z-index:1001;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+		}
+		
+		.white_content {
+	display: none;
+	position: fixed;
+	top: 10%;
+	left: 20%;
+	width: 60%;
+	height: 80%;
+	padding: 16px;
+	border: 10px solid #d9d9d9;
+	background-color: white;
+	z-index:1002;
+	overflow: auto;
+	right: 30%;
+}
+
+
+.imagenComentario{
+	width: 38px;
+    height: 38px;
+    border-radius: 19px;
+	padding: 0.1px;
+	float: right;
+}
+
+.imagenComentar{
+	width: 30px;
+    height: 30px;
+	padding: 0.1px;
+	float: left;
+}
+
+
+.escribeComentario {
+    width: 100%;
+    height: 35px;
+	padding-left: 5px;
+	
+    background: #2d2d2d; /* browsers that don't support rgba */
+    background: rgba(45,45,45,.15);
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #3d3d3d; /* browsers that don't support rgba */
+    border: 1px solid rgba(255,255,255,.15);
+    -moz-box-shadow: 0 2px 3px 0 rgba(0,0,0,.1) inset;
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,.1) inset;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1) inset;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+    text-shadow: 0 1px 2px rgba(0,0,0,.1);
+    -o-transition: all .2s;
+    -moz-transition: all .2s;
+    -webkit-transition: all .2s;
+    -ms-transition: all .2s;
+}
+
+.escribeComentario:-moz-placeholder { color: #333333; }
+.escribeComentario:-ms-input-placeholder { color: #333333; }
+.escribeComentario::-webkit-input-placeholder { color: #333333; }
+
+.escribeComentario:focus {
+    outline: none;
+    -moz-box-shadow:
+        0 2px 3px 0 rgba(0,0,0,.1) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+    -webkit-box-shadow:
+        0 2px 3px 0 rgba(0,0,0,.1) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+    box-shadow:
+        0 2px 3px 0 rgba(0,0,0,.1) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+}
+
+
+
+
+.FechaHoraComent{
+	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	color: #5f4121; 
+	font-size: 0.9em;
+	line-height: 1.5em;
+	float: left;
+}
+
+
+.NombreComentarioU{
+	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	color: #996633; 
+	font-size: 1.3em;
+	line-height: 1.5em;
+	float: left;
+}
+
+.Comentario{
+	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	color: black; 
+	font-size: 1.1em;
+	line-height: 1.5em;
+	float: left;
+}
+
+.fechaR
+{
+	font-size: 1em;
+	margin-top: -5px;
+}
+
+.usuarioR
+{
+	font-size: 1.5em;
+	margin-top: -5px;
+}
+
+
+
+.ordenarIcono
+{
+  color: #c68c53;
+  font-size: 1.5em;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.auxOrdenar
+{
+  padding-left: 20px;
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.ordenarIcono:hover
+{
+  color: #996633;
+  text-decoration:none;
+}
+
+
+@media (max-width: 400px)
+{
+  .reseñaCont
+  {
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align : justify;
+    padding-bottom: 20px;
+    line-height: 1.3em;
+    color: black;
+    font-size: 16px;
+  }
+  .usuarioR{
+    font-size: 18px;
+  }
+
+   .datosLibro {  
+  width: 300px;
+  margin-left: 0px;
+  font: normal 17px 'trebuchet MS', arial, helvetica;
+  color: #1a1a1a;
+ }
+
+ label.labeldatosF{   
+  width: 200px;
+  padding-left: 0px;
+  margin-top: 10px;
+  font: normal 17px 'trebuchet MS', arial, helvetica;
+  color: gray;
+}
+
+.section-heading{
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #c68c53;
+}
+
+.imagen-libroR{
+  position: relative;
+  width: 220px;
+  height: 330px;
+  border-radius: 6px;
+  margin-left: -4px;
+}
+
+.likeIcono
+{
+  font-size: 1.2em;
+  padding-right: 10px;
+}
+
+.auxLike
+{
+  margin-left: -5px;
+  padding-left: 10px;
+}
+
+.comentar
+{
+  font-size: 1.2em;
+  padding-right: 10px;
+  margin-left: -20px;
+}
+.auxComentar
+{
+  display: inline;
+  padding-left: -30px;
+  font-size: 1.2em;
+  margin-left: -10px;
+}
+
+.ordenarIcono
+{
+  margin-left: -60px;
+  font-size: 1.2em;
+  padding-right: 10px;
+}
+.auxOrdenar
+{
+  padding-left: -20px;
+  font-size: 1em;
+  margin-left: -15px;
+}
+
+.imagenComentario{
+  width: 38px;
+    height: 38px;
+    border-radius: 19px;
+  padding: 0.1px;
+  float: left;
+}
+
+.imagenComentar{
+  width: 28px;
+    height: 28px;
+  padding-top: 5px;
+  float: right;
+}
+.ficha
+{
+  background-color: #f3e5d8;
+  border-radius: 6px;
+  min-height: 330px;
+  margin-top: -20px
+}
+
+}
+
+.dioLike{
+  color: #996633;;
+}

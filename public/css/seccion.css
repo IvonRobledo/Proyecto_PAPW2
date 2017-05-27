@@ -1,0 +1,15 @@
+.slider .contendor {
+     position: relative;
+}
+ 
+.slider .contenedor ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+ 
+    /* 
+     * Valor muy alto para permitir almacenar todos los elementos 
+     * Este valor debería ser height para sliders verticales 
+     */
+    width: 10000px;
+}
